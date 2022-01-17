@@ -6,12 +6,12 @@ void setup() {
 void loop() {
   for(int j=0;j<3;j++){
     digitalWrite(j,HIGH);
-    delay(500);
+    delay(100);
     digitalWrite(j,LOW);
   }
-  for(int j=2;j>0;j--){ 
+  for(int j=1;j>0;j--){ 
     digitalWrite(j,HIGH);
-    delay(500);
+    delay(100);
     digitalWrite(j,LOW);
   }
 }
